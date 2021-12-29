@@ -29,6 +29,8 @@ namespace Business.Concrete
 
 		}
 
+		//claim
+		//[SecuredOperation("product.add")]
 
 		[ValidationAspect(typeof(ProductValidator))]
 		public IResult Add(Product product)
